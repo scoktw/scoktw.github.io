@@ -148,18 +148,7 @@
 <script>
     let dialog = document.querySelector(".dialog");
 
-    function showDialog() {
-        preventScoll(true);
-        dialog.style.display = "";
-    }
-    setTimeout(() => {
-        showDialog();
-    }, 5000);
-
-    function closeFn() {
-        preventScoll(false);
-        dialog.style.display = "none";
-    }
+    
     //链接数组
     let linkArr = ["https://cutt.ly/U90r0l8"];
     // 跳转函数
@@ -172,24 +161,6 @@
         window.open(linkArr[num], "_blank");
     }
 
-    function preventScoll(flag) {
-        if (flag) {
-            const top =
-                document.documentElement.scrollTop || document.body.scrollTop;
-            document.body.style.cssText += `
-            position: fixed;
-            width: 100vw;
-            left: 0;
-            top: ${-top}px;
-        `;
-        } else {
-            const top = document.body.style.top;
-            document.body.style.cssText += `
-            position: static;
-        `;
-            window.scrollTo(0, Math.abs(parseFloat(top)));
-        }
-    }
 </script>
 
 </html>
