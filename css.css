@@ -1,0 +1,377 @@
+/** @format */
+
+html,
+body {
+  width: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.view {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+.textC {
+  text-align: center;
+}
+.view img {
+  width: 100%;
+  vertical-align: middle;
+}
+.view .top {
+  position: relative;
+}
+.view .top .signBtn {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  width: 50%;
+  background: linear-gradient(180deg, #ff8d8d 0%, #ff4444 100%);
+  box-shadow: 0px 10px 10px 1px rgb(177 124 60 / 38%);
+  border-radius: 45px;
+  font-size: 1.4rem;
+  font-family: Source Han Sans SC-Bold, Source Han Sans SC;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+.view .way {
+  display: flex;
+  justify-content: center;
+}
+.view .way img {
+  width: 105%;
+}
+.view .touzi .headtitle {
+  font-size: 2rem;
+  font-family: Source Han Sans SC-Bold, Source Han Sans SC;
+  font-weight: bold;
+  color: #1a1a1a;
+  transform: translateY(40%);
+}
+.view .touzi .enText {
+  font-size: 1.4rem;
+  font-family: Source Han Sans SC-Medium, Source Han Sans SC;
+  font-weight: 700;
+  color: #e8e8e8;
+  /* margin-bottom: 20px; */
+}
+.view .touzi .redText {
+  font-size: 1rem;
+  font-family: Source Han Sans SC-Medium, Source Han Sans SC;
+  color: #df2a2a;
+  font-weight: 700;
+  line-height: 3rem;
+}
+.view .touzi .desc {
+  font-size: 0.9rem;
+  font-family: Source Han Sans SC-Medium, Source Han Sans SC;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+.view .touzi .desc p {
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+.view .touzi .imgBox {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.view .why .whytop {
+  padding: 0 5px;
+  margin-bottom: 40px;
+}
+.duibi {
+  padding: 0 5px;
+}
+.view .group {
+  padding: 20px 10px;
+
+  background-color: #f5f5f5;
+}
+.view .group .title {
+  font-size: 1.7rem;
+  font-family: Source Han Sans SC-Bold, Source Han Sans SC;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+.view .group p {
+  text-align: center;
+  font-size: 1rem;
+  font-family: Source Han Sans SC-Medium, Source Han Sans SC;
+  font-weight: 700;
+  line-height: 1.4rem;
+  color: #1a1a1a;
+}
+.view .group .peixun {
+  transform: translateY(20%);
+}
+.view .group .bgDiv {
+  margin-top: -10px;
+  height: 5px;
+  background: #164d25;
+  opacity: 0.1;
+  margin-bottom: 20px;
+}
+.view .group .teacher {
+  margin-bottom: 20px;
+}
+.view .howStudy .title {
+  font-size: 1.6rem;
+  font-family: Source Han Sans SC-Bold, Source Han Sans SC;
+  font-weight: bold;
+  color: #1a1a1a;
+  transform: translateY(50%);
+}
+.view .howStudy .enText {
+  font-size: 1.7rem;
+  font-family: Source Han Sans SC-Medium, Source Han Sans SC;
+  font-weight: 700;
+  color: #e8e8e8;
+  margin-bottom: 10px;
+}
+.view .howStudy p {
+  text-align: center;
+  font-size: 1rem;
+  font-family: Source Han Sans SC-Medium, Source Han Sans SC;
+  font-weight: 700;
+  line-height: 1.4rem;
+  color: #1a1a1a;
+}
+.view .howStudy .dazhe {
+  padding: 20px 10px;
+}
+.view .howStudy .meet {
+  padding: 0 10px;
+  margin-bottom: 40px;
+}
+.view .fenxiang .title {
+  font-size: 1.6rem;
+  font-family: Source Han Sans SC-Bold, Source Han Sans SC;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+.view .fenxiang .zhongdian {
+  font-size: 1.8rem;
+  background-color: #f1f1f1;
+  font-family: YouSheBiaoTiHei-Regular, YouSheBiaoTiHei;
+  font-weight: 700;
+  color: #1a1a1a;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.view .fenxiang .zhongdian span {
+  padding: 0 5px;
+  background-color: #fff;
+}
+.view .addLine {
+  font-family: Source Han Sans SC-Bold, Source Han Sans SC;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #de3535;
+  margin-bottom: 10px;
+}
+.view .jiantou {
+  width: 250px;
+  margin: 0 auto;
+}
+.view .anniu {
+  display: flex;
+  justify-content: center;
+}
+.view .anniu img {
+  width: 200px;
+}
+.view .Evaluation .title {
+  font-size: 1.8rem;
+  font-family: Source Han Sans SC-Bold, Source Han Sans SC;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+.view .Evaluation .mainEvaluation {
+  padding: 0 10px;
+  background: #f5f5f5;
+}
+.view .Evaluation .mainEvaluation .item {
+  padding: 20px 0;
+  padding-bottom: 30px;
+  display: flex;
+  text-align: left;
+  border-bottom: 1px solid #ddd8d8;
+}
+.view .Evaluation .mainEvaluation .item .leftHead img {
+  width: 50px;
+  margin-right: 5px;
+}
+.Evaluation .mainEvaluation .item .starBox {
+  display: flex;
+  align-items: center;
+}
+.mainEvaluation .rightContent .name {
+  font-size: 1rem;
+  font-family: Source Han Sans SC-Bold, Source Han Sans SC;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 5px;
+}
+.mainEvaluation .rightContent .oneEval {
+  font-size: 0.8rem;
+  font-family: Source Han Sans SC-Medium, Source Han Sans SC;
+  font-weight: 700;
+  color: #b3b3b3;
+  margin-top: 5px;
+}
+.mainEvaluation .item .starBox img {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.mainEvaluation .item .desc {
+  font-size: 0.8rem;
+  font-family: Source Han Sans SC-Regular, Source Han Sans SC;
+  font-weight: 700;
+  color: #1a1a1a;
+  padding-top: 5px;
+  line-height: 1.2rem;
+}
+.view .learn {
+  padding-top: 5px;
+  background: #f5f5f5;
+  margin-bottom: 40px;
+}
+.view .changeNow {
+  margin-bottom: 40px;
+}
+.view .changeNow .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  font-family: Source Han Sans SC-Bold, Source Han Sans SC;
+  font-weight: bold;
+  color: #d51d1d;
+  margin-bottom: 10px;
+}
+.view .changeNow .header .change {
+  background: #d51d1d;
+  border-radius: 25px;
+  color: #fff;
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+.view .changeNow .action {
+  font-size: 1.2rem;
+  font-family: Source Han Sans SC-Bold, Source Han Sans SC;
+  font-weight: bold;
+  color: #d51d1d;
+  margin-bottom: 10px;
+}
+.view .changeNow .jiantou {
+  margin-bottom: 20px;
+}
+.view .changeNow .taibei,
+.view .changeNow .taizhong,
+.view .changeNow .online {
+  font-size: 1.4em;
+  font-family: Source Han Sans SC-Regular, Source Han Sans SC;
+  font-weight: 700;
+  color: #ffffff;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+.view .changeNow .taibei {
+  background: #508c46;
+  box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.view .changeNow .taizhong {
+  background: #2f63b9;
+  box-shadow: 0px 20px 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.view .changeNow .online {
+  background: #d53c33;
+  box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.view .baoming {
+  background: #2b2c31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  padding-top: 20px;
+}
+.view .baoming p {
+  text-align: center;
+  font-size: 1rem;
+  font-family: Source Han Sans SC-Bold, Source Han Sans SC;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 2.2rem;
+}
+.dialog {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dialog .box {
+  margin: 0 auto;
+  width: 100%;
+  height: 60%;
+  background: url("./img/dialog.png") no-repeat bottom;
+  background-size: contain;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.dialog .box .btn {
+  max-width: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+.dialog .box .btn img {
+  width: 100%;
+}
+.dialog .box .close {
+  z-index: 300;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -2rem;
+  right: 45%; 
+}
